@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aesthetica Jewelry</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+        header {
+            background-color: #222;
+            color: #fff;
+            padding: 13px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #d4af37;
+            padding: 5px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #333;
+        }
+        .hero {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://example.com/hero-image.jpg') no-repeat center center;
+            background-size: cover;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 48px;
+            text-shadow: 2px 2px 4px #000;
+        }
+        section {
+            text-align: center;
+            padding: 50px 0;
+        }
+        .category {
+            display: flex;
+            justify-content: center;
+            margin: 20px;
+            flex-wrap: wrap;
+        }
+        .category a {
+            background-color: #fff;
+            color: #d4af37;
+            padding: 15px 25px;
+            text-decoration: none;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            flex-basis: 30%;
+            text-align: center;
+        }
+        .category a:hover {
+            background-color: #d4af37;
+            color: #fff;
+        }
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        footer p {
+            margin: 0;
+        }
+
+        /* Mobile-specific styles */
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+            }
+            nav a {
+                margin: 10px 0;
+            }
+            .hero {
+                height: 250px;
+            }
+            .hero h1 {
+                font-size: 24px;
+                padding: 0 10px;
+            }
+            .category a {
+                flex-basis: 80%;
+                font-size: 18px;
+            }
+            footer {
+                padding: 15px 0;
+            }
+        }
+
+        /* For very small screens */
+        @media (max-width: 480px) {
+            .hero h1 {
+                font-size: 20px;
+                padding: 0 5px;
+            }
+            .category a {
+                flex-basis: 90%;
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Aesthetica Jewelry</h1>
+        <p>Discover Timeless Elegance, Crafted for You</p>
+    </header>
+
+    <nav>
+        <a href="necklaces.html">Necklaces</a>
+        <a href="earrings.html">Earrings</a>
+        <a href="bracelet.html">Bracelet</a>
+        <a href="phonecharm.html">Phonecharms</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
+
+
+    <div class="hero">
+        <h1>Exquisite Jewelry for Every Occasion</h1>
+    </div>
+
+
+    <section>
+        <h2>Our Collections</h2>
+        <div class="category">
+            <a href="necklaces.html">Necklaces</a>
+            <a href="earrings.html">Earrings</a>
+            <a href="bracelet.html">Bracelet</a>
+           <a href="phonecharm.html">Phonecharms</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Aesthetica Jewelry. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

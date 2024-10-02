@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Necklaces - Aesthetica Jewelry</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #faf0e6;
+        }
+        header {
+            background-color: #8b0000;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #d4af37;
+            padding: 10px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #333;
+        }
+        .products {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 50px 0;
+        }
+        .product {
+            background-color: white;
+            padding: 20px;
+            margin: 15px;
+            text-align: center;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            width: 30%;
+        }
+        .product img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .product h3 {
+            margin: 10px 0;
+            color: #8b0000;
+        }
+        .product p {
+            color: #555;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        footer p {
+            margin: 0;
+        }
+
+        /* Mobile-specific styles */
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+            }
+            nav a {
+                margin: 10px 0;
+            }
+            .products {
+                flex-direction: column;
+            }
+            .product {
+                width: 90%;
+                margin: 10px auto;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .product h3 {
+                font-size: 18px;
+            }
+            .product p {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Necklaces Collection</h1>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="earrings.html">Earrings</a>
+        <a href="bracelet.html">Bracelet</a>
+        <a href="phonecharm.html">Phonecharms</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
+
+    <section class="products">
+        <div class="product">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi76yXYoWY0Hwf16Vz-CuMKniXuuJdPOcfmTskyDmBYMMMF9soG8mAPUdyKPFeC3uBkqBxep5qW12KYx_KIJ2urKR7GWznydFBtmIjnJ7DayJMINAAjlT5vAN-eYibtHPqH6T96ve0A3hHbYRm9uW3IkDNi8ifwgnrJ9kouoXzPawqs-X4W8pJKru1SBiQ/w154-h200/Angel%20drop%20necklace.jpg" alt="Angel drop necklace">
+            <h3>Angel drop necklace</h3>
+            <p>Price:Price:750-/</p>
+        </div>
+        <div class="product">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg9jXESfxnXdrgzZuXbCaox-ZDJyewpNa1Npc5mm3HpKsBMrR0U5Sc6vVHP2dJbyzFpZpS8XfVG0aZlSwCHMxywFz64jaMjR0qdxaFVSh7o2WxmySt0qI-bWVepcyiDpB1Tl4SpkiUABmG6G1YDrIxxyUEDnKj3R38yg6_jK7Tbv0a6sUzfwKlxe_bSd5w/w200-h192/Coquette%20bow%20necklace.jpg" alt="Coquette bow necklace">
+            <h3>Coquette bow necklace</h3>
+            <p>Price:Price:599/-</p>
+        </div>
+        <div class="product">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZTK6yddaKgh7lB9DmOrRxnT87tHcMWy5Z5ZqgbTmPEIyv9ErsA-XA33LsHVp3TkA45I8vdE2PJdKQ57FEokn0mRDQvCPWTr09WMtN-bps9bIjQntwQSpa7j2G9b2_38zWmSeJlOWgNda8MZ7-vnYm80ASJjhuXQXJ0DolkIw0jm3_N1sspNXY0AWPTcw/s320/Mermaid%20necklace.jpg" alt="Mermaid necklace">
+            <h3>Mermaid necklace</h3>
+            <p>Price:649/-</p>
+        </div>
+        <div class="product">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-XBwSIS3YaynN0KqcBCMAGkwjVp4ti6nDtQ3GDhvMQMQYfh_zc33X70M2J1gm2KPVoZli6bKAAoNv-6zTXE3g8LkzAME46XjBjsuNw4tsyiQPKGCCBzBctSSJQEggT02AIIAxJMrKxw_Qdn2wYa50i05Ri25wszEAjen7GqSSknJPXMFk0roPeLbg-h4/s320/Lana%20pendant%20.jpg" alt="Lana Pendant">
+            <h3>Lana Pendant</h3>
+            <p>Price:390-/-</p>
+        </div>
+        <div class="product">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhxd0E9oj35MgFA6AqAdJ4v2UHWbA09WMsheWpLIX6ny5LyxImiyhp5CyP7QL04JCUhJwUT8UoP84ZPLQqadT4z0S7Tnow9TMGtx4_JyvuCdVqR4FjBTBMIP8UVrnMYCvfIi2BSxQCeFGPf4QgtkfQ52yN3xbFknmzU_9vAd2yT7FLR47n-c_H4QIfhXkc/s1080/Vivienne%20westwood.jpg" alt="Vivienne westwood">
+            <h3>Vivienne westwood</h3>
+            <p>Price:280/-</p>
+        </div>
+        <div class="product">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgIYxnHK1oS1pUEbrVuuLsv47F7i1Ws-NY6Xu9Oee98w5iZw0oZvlqdIxs4PQevjjJhrJj3z3dYLLKw5XayWgUX6ukviST8QthnrLbvkd4GX2pu8K-qOsBs7BFkyDRri4hx1HHPitjB9VAkWt4rDAo4QZEwbkRtHt3hjhU6PVOEgS0aWpijCiEhMKzTsaM/s320/Purple%20heart%20necklace.jpg" alt="Purple heart necklace">
+            <h3>Purple heart necklace</h3>
+            <p>Price:530/-</p>
+        </div>
+        <div class="product">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgvPFSirL_DHLdwkbJy-l3kB5vf4-ji8tym6sxgOQLWcyiXMXvfwTWr6v1MGV0M41BtwG_YBowTTuxZ3Tzw0-HJJsb0SqUntjrlzZBH7Pc_-NatWHnNpC7crZ2-nm2CLdXotHSV-sK94LAnrNaLbAg2lr5jFsTkD5vxEkgaoEnWMlZ_Mj_FJ-S2JGxMrdI/s320/Bow%20necklace.jpg" alt="Bow necklace">
+            <h3>Bow necklace</h3>
+            <p>Price:299/-</p>
+        </div>
+        <div class="product">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg9WFGed3zYe9bCkxgkTqUnp20e7bZlQZPv42E_Dkvr9NhhdRe7cthE49EhGoW12aRZCQtZmEdy2iGXw3LTxOxV6GktF__ozJsLGWWMkkkEjM7OtgQOh6XenLh9ZmwTwrh9Bru4rkRwMzv9hJ65s8ol42_XORGpsECIsEqvGBM3KH2KjSfVvn-VPOt1FWA/s320/Weekend%20necklace.jpg" alt="Weekend necklace">
+            <h3>Weekend necklace</h3>
+            <p>Price:449/-</p>
+        </div>
+        <div class="product">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhSWB2Xfho0YPfPJyyh7nDBYvKg6V0TZEfSIfdTPrZ38a5cg-1ddhqr8_kgIG78dKyVJIs6hKe9dV0NZ8WCaxzzuzY3FYBVX3kHGsQL7nPc-6pOd-nUsSKdCM0RdAzNeQ0mHB0S7DUBQ4ZssAgqK0vHYE4vw1Oo7GqTnVlrQYuPlhyphenhyphenwDJ8XNK1tDf5_Q5M/s320/Saturn%20pendant.jpg" alt="Saturn Pendant">
+            <h3>Saturn Pendant</h3>
+            <p>Price:299/-</p>
+        </div>
+        <div class="product">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4Zzw3x1Ef_N2QO-FFmK6QqfNjyH1maNSwfzh1VwRn5xpsGPtaN7ImscBpA6ReldAwa8DrUOoP1wutM7D8BnpQQ0cvQTu6mvxtLM02lBlJN6mhkmQYQFJuyyxYHt5MP1R6r0watLl7cXIsh77vWJIP2TXOhQhuLkV5-tUGihKdfvDmyS9ncbD5kGg99qc/s320/Ultraviolence%20necklace.jpg" alt="Ultraviolence necklace">
+            <h3>Ultraviolence necklace</h3>
+            <p>Price:499/-</p>
+        </div>
+        <div class="product">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjk2Y5ropCwthsmBJS7f2NWNvnwhvEtz3ZbDSsYAJOacxsZbDhwevxFpNM7bzrZ1_inU7JiUEmR1It7jSRi-haZA2zfPxlZ3k_yEJfs88HpouIEJt_3BZKGbO5RsYfxDzmyNw6nz-6YqClIPRnCAM-akUZlojguu6H5OnoDE0ilUr6u1n_94Cm10k0gMIM/s320/Barbed%20wire%20bow%20necklace.jpg " alt="Barbed wire bow  necklace">
+            <h3>Barbed wire bow  necklace</h3>
+            <p>Price:399/-</p>
+        </div>
+        <div class="product">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjCvNjxJecmGWYpwQtK7H8ImFYqRlDMYDjiweGgOZaTIaIHO9G75vSjFh2yUO3-iN3cBn7RigeuIbrMFvmg5_tYmMQfRmjI4VTLNZtwKaD8i6EauIR0I9hDZz5K0ZvvRTpMF_V-CUGrlfLPCzMSMmtTAN11KNHZLBE1f5BwPqVc_1tGBPEp98TQwun9by8/s320/Pink%20bow%20heart.jpg" alt="Pink bow heart necklace">
+            <h3>Purple bow heart necklace</h3>
+            <p>Price:530/-</p>
+        </div>
+        <div class="product">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKiS57LxQBjQtUKkZV9Efah_atKPCLjuHrHUBpwopy_AUja9SoAOg3vq_fqk3gIbtpQ6ggBOhK1oV4g3-7Xh9Dx-A4R5tNNAMPkL1QhHOW0prajI_QQj3xk_7X54nK-QY_UqgcHi9-mcuc595PN-3As4Rq5ln0OhLqeMAb7_dDQ0b2xVnOZdPhvnAGaZo/s1295/Silver%20bow%20necklace.jpg" alt="Silver bow necklace">
+            <h3>Silver bow necklace</h3>
+            <p>Price:399/-</p>
+        </div>
+        <div class="product">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjIVPSXSBG41KI1-FRYByqIjDGsJXcKYsUGzlgUf_icNZNZIRvQsxT15zSBQlTV0KWp737I2DsjuqASr4e9kC9hcu_DdmZpPHO46oLsTWroRjyBQmD8YGyNEqQmFWgaQ-RTOefYfzJrUBKp9Ekh27rMxkmRejkyIHOzSetTFckxUKv02coTh5vA0PXo474/s320/Batman%20X%20Hello%20kitty%20necklaces%20.jpg" alt=" Batman X Hello kitty necklaces *limited edition!!!*">
+            <h3> Batman X Hello kitty necklaces *limited edition!!!*</h3>
+            <p>Price:349/-</p>
+        </div>
+    </section>
+   
+
+    <footer>
+        <p>&copy; 2024 Aesthetica Jewelry. All rights reserved.</p>
+    </footer>
+</html>

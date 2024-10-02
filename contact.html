@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Aesthetica Jewelry</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Base styles for mobile-first design */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #faf0e6;
+        }
+        header {
+            background-color: #8b0000;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #d4af37;
+            padding: 10px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #333;
+        }
+        .products {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 50px 0;
+        }
+        .product {
+            background-color: white;
+            padding: 20px;
+            margin: 15px;
+            text-align: center;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            width: 30%;
+        }
+        .product img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .product h3 {
+            margin: 10px 0;
+            color: #8b0000;
+        }
+        .product p {
+            color: #555;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        footer p {
+            margin: 0;
+        }
+
+        /* Mobile-specific styles */
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+            }
+            nav a {
+                margin: 10px 0;
+            }
+            .products {
+                flex-direction: column;
+            }
+            .product {
+                width: 90%;
+                margin: 10px auto;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .product h3 {
+                font-size: 18px;
+            }
+            .product p {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Contact Aesthetica Jewelry</h1>
+        <p>We'd love to hear from you!</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="necklaces.html">Necklaces</a>
+        <a href="earrings.html">Earrings</a>
+        <a href="bracelet.html">Bracelet</a>
+        <a href="phonecharm.html">Phonecharms</a>
+    </nav>
+
+    <section class="contact-section">
+        <h2>Get in Touch</h2>
+        Instagram id:<b>aesthetica.77</b>
+        <p>Email: <a href="gmailto:aestheticajewellery@gmail.com">aestheticajewellery@gmail.com</a></p>
+    </section>
+
+ 
+    <footer>
+        <p>&copy; 2024 Aesthetica Jewelry. All rights reserved.</p>
+    </footer>
+
+
+</body>
+</html>

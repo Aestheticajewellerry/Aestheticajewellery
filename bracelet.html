@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bracelet - Aesthetica Jewelry</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+         body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #faf0e6;
+        }
+        header {
+            background-color: #8b0000;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #d4af37;
+            padding: 10px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #333;
+        }
+        .products {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 50px 0;
+        }
+        .product {
+            background-color: white;
+            padding: 20px;
+            margin: 15px;
+            text-align: center;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            width: 30%;
+        }
+        .product img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .product h3 {
+            margin: 10px 0;
+            color: #8b0000;
+        }
+        .product p {
+            color: #555;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        footer p {
+            margin: 0;
+        }
+
+        /* Mobile-specific styles */
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+            }
+            nav a {
+                margin: 10px 0;
+            }
+            .products {
+                flex-direction: column;
+            }
+            .product {
+                width: 90%;
+                margin: 10px auto;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .product h3 {
+                font-size: 18px;
+            }
+            .product p {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Bracelet Collection</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="necklaces.html">Necklaces</a>
+        <a href="earrings.html">Earrings</a>
+        <a href="phonecharm.html">Phonecharm</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
+    <section class="products">
+        <div class="product">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1Y7ML-L0OKJeX-L_PX8zFxQnsTS-jFlgK1qm01402b3ecn8WvKqvD1M4YzlsEp-aHt2QKbGcjeQtUztWCG2PZKFCTIFUZM1nJbe_GOYJKh9oMyZGj0igpQDV75q3F0BmbibfIqTvwzJx-CDLRdD8w0rB_PGyE6qIJqhp7wrP8t0ZzXBADZF85ZJoD1UM/s320/Weekend%20bracelet.jpg" alt="Weekend bracelet">
+            <h3>Weekend bracelet</h3>
+            <p>Price:199</p>
+        </div>
+        <div class="product">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiQ_Gj-xRQQRctMjDROa5G2RYtCBsyeff5Wz4DlpQ9HF02w7F1uRkQ6hBFl4kdjRe3xyie4WPIGev4mfu0fGBVDh8Orhc0aWWEvhN2ggv3HRGmz-QjKJ2kb_lyyYR54iKZVSFUKaxNNTMmKKknioaNQOYbqAZRDr5oU93YRy8f9lipUyjOVD-QIavNnFWg/s320/Royal%20heart%20bracelet.jpg">
+            <h3>Royal heart bracelet</h3>
+            <p>Price:</p>
+        </div>
+        <div class="product">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgu2qBMWUdn0mCbCeOVoohEP-SJ-cslrQUrOY_nWyFhyQcA14_yD2ByGwmu7QEfVqFvj3fO-dx7ObAttIlO62CYy-MrAmTp2BJIdMq_gva79Y1iBCFQdEZt13EqSR5YOuqOvPD3p1sCUfVwPmI2aQS4w2aTtpSSXDbZOLUNlVFSXW_Z6j2nnAIMR2JDtZs/s320/Comfy%20panda%20necklace.jpg" alt="Comfy panda bracelet">
+            <h3>Comfy panda bracelet</h3>
+            <p>Price:220</p>
+        </div>
+        <div class="product">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh-GrnpIPdxWJqd67GVsf_dyWo_OiUI4OumaT-D2rBSCxOU5WkADCgYIvksMnrIX3gpxXYGMpb-jhyphenhyphen6jagpzt1L-cwXz1SoI8qxHiqyLArKxPwNRW3uaHBR9rofpRpxtD7MPYjfXwh52-FYTQJBK7Y1IXhpUXjJYkBrSOrf6uCtiRRlTsMbDPXsOB9Qdz4/s320/Vanilla%20bracelet%20.jpg" alt="Vannila bracelet">
+            <h3>Vannila bracelet</h3>
+            <p>Colour:White or Grey</p>
+            <p>Price:169</p>
+        </div>
+        <div class="product">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEglIq4bNT6jh9IZkr96KuT5X4lMEqFvafm4oAvMU_2eC932MOsJbCfCmwRXHyoN6s6hYaoW6fAkGe4k9uKFSs0jNkGzAmq5htiA7wTElI6nldr41UFSKoe2x9F6wWT0fdjT1000eUDz7bTE6_Obba497uGviwfpx996hYGXLXNxDTDuyMMDPmXK23Obovw/s689/Batman%20X%20Hello%20kitty%20bracelets.jpg" alt="Batman X Hello kitty bracelets">
+            <h3>Batman X Hello kitty bracelets</h3>
+            <p>Price:499</p>
+        </div>
+        <div class="product">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgk4fLPyQD2TpIzvnqiy-wIroXfWyyPeo7UHcY8OU9rkw3_s-hHC-NPBvMMQfpeMKoncK26h8uTAXiQJhRPJhTslOrl2ROnpAKfJuXs4HetAzH4cNJ6gqlyRHdw4ASVETcgQksopOgxm97mwS71pFWzS2Ibgas-jzNj9JS3_vxmGK8esIK9c9pL50BcvyU/s320/Rosie%20bracelet.jpg" alt="Rosie bracelet">
+            <h3>Rosie bracelet</h3>
+            <p>Price:549</p>
+        </div>
+        <div class="product">
+            <img src=https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg7mbIf-DJTkkiMpGYz3r-aLNQE0vUkLBG-xFpiSlbLZ1b874aoVxepvagFxeEjUyQYqDfe9GLpkVZN0yvvpqlrXlEDaPUpgwNrNNUnFzmSwoMpMHmYnq6AdAshIY0u74-JzD8OQYWjh81jsYrxccY-PDTs2l4r6cGDuOQ4c0Pbyz4p5weg0IlfWArw624/s1171/Pink%20bow%20bracelet.jpg" alt="Pink bow bracelet">
+            <h3>Pink bow bracelet</h3>
+            <p>Price:549</p>
+        </div>
+        <div class="product">
+            <img src=https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjPzSyE2cyeELovRHSJldIaTA1wEIh5zP71Z8K51nTTp6c3jFOID8bk1sHUVoq-QtrE2f5zdklVhwsyGd49G5i-YkU2sONgsXSkdRNP4sJy7Zxw7ieHnRQHU8ME9_GhzYtou-txrWEtovlxKCuLPbygdLC-wij36yklVJ5Mm5-JZgm5hSINnHw8u-EXOE4/s320/Madam%20web%20bracelet.jpg" alt="Madam web bracelet">
+            <h3>Madam web bracelet</h3>
+            <p>Price:549</p>
+        </div>
+        <div class="product">
+            <img src=https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgHoUlksHf7t9eN5jSx-U4OQmNFMfwUwi-8LCyA1rxck0Ht54_gGWDUmQOW5ATYMgeyjoIkgOd-pGcf43ZebCt4JR0JS04NN2Z35Mx-O6dnHY6v0_Fwn2o9E4d-4diLvAqfbBPwZvs-AOVLA9nVfzQzXmlD49g1pXxHYyu_tCwMef_6fD1GZyCb7Sk9nl0/s320/Batman%20X%20Hello%20kitty%20bracelets.jpg" alt="Batman X Hello kitty bracelets*limited edition!!!*">
+            <h3>Batman X Hello kitty bracelets*limited edition!!!*</h3>
+            <p>Price:499</p>
+        </div>
+    </section>
+   
+    <footer>
+        <p>&copy; 2024 Aesthetica Jewelry. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
