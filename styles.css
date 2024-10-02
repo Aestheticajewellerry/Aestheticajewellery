@@ -1,0 +1,30 @@
+/* General styles common across all pages */
+body {
+    font-family: 'Arial', sans-serif;
+}
+header {
+    text-align: center;
+    padding: 20px;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover {
+    color: #333;
+}
+section {
+    text-align: center;
+    padding: 50px 0;
+}
+footer {
+    text-align: center;
+    padding: 20px 0;
+}
